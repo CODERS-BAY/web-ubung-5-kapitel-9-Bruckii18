@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kontaktformular">
+    <link rel="stylesheet" href="css/style.css">
+    <title>
+        Kontaktformular | Zoo
+    </title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="img/zoo_logo.jpg" alt="Zoo_Logo"></a>
+        <h1><a href="index.html">Muster Zoo</a></h1>
+        <nav>
+            <ul>
+                <li><a href="Infoseite.html">Infoseite</a></li>
+                <li><a href="Kontaktformular.html">Kontaktformular</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="headline">
+            <h2>Wollen Sie uns etwas mitteilen bzw. einen Newsletter bestellen?</h2>
+        </div>
+        <form method="get" action="ausgabe.html">
+            <fieldset>
+                <legend>Kontaktformular</legend>
+                <!-- <img src="img/zoo_logo.jpg" alt="Zoo_Logo"> -->
+
+                <div><label for="vorname">Vorname</label><br>
+                    <input type="text" name="vorname" id="vorname"></div>
+
+                <div><label for="nachname">Nachname</label><br>
+                    <input type="text" name="nachname" id="nachname"></div>
+
+                <div><label for="email">E-Mail</label><br>
+                    <input type="email" name="email" id="email"></div>
+
+                <div><label for="adresse">Adresse</label><br>
+                    <input type="text" name="adresse" id="adresse"></div>
+
+                <div><label for="besuchstag">Waren Sie schon einmal bei uns? Wenn ja, wann?</label><br>
+                    <input type="date" name="besuchstag" id="besuchstag"></div>
+
+                <div><label for="besuchszeit">Zu welcher Uhrzeit waren sie hier?</label><br>
+                    <input type="time" name="besuchszeit" id="besuchszeit"></div>
+
+                <div><label for="gefallen">Wie sehr hat es Ihnen bei uns gefallen?</label>
+                    <input type="range" name="gefallen" id="gefallen"></div>
+                <p>Würden Sie uns weiterempfehlen?</p>
+                <div class="weiterempfehlung">
+                    <input type="radio" name="weiterempfehlung" id="ja" value="ja">
+                    <label for="ja">Ja</label>
+                    <input type="radio" name="weiterempfehlung" id="nein" value="nein">
+                    <label for="nein">Nein</label></div>
+
+                <div><label for="tierart">Über welche Tierart möchten Sie einen Newsletter?</label><br>
+                    <select name="tierart" id="tierart">
+                        <option value="1">Säugetier</option>
+                        <option value="2">Insekten</option>
+                        <option value="3">Fische</option>
+                        <option value="4">Vögel</option>
+                    </select></div>
+
+                <div><label for="kommentar"></label>
+                    <textarea name="kommentar" id="kommentar" cols="25" rows="5"
+                        placeholder="Schreiben Sie uns hier einen Kommentar ..."></textarea></div>
+                <div class="button"><label for="submit"></label>
+                    <input type="submit" value="Absenden"></div>
+                <div class="reset"><label for="reset"></label>
+                <input type="reset" value="Forumlar zurücksetzen"></div>
+            </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <article>
+            <h2> ÖFFNUNGSZEITEN:</h2>
+             <p> 01. März 2020 - 24. Oktober 2020 | 09:00 Uhr - 18:00 Uhr (Ausgang bis 19:00 Uhr)<br>
+             25. Oktober 2020 - 27. März 2021 | 09:00 Uhr - 16:00 Uhr (Ausgang bis 17:00 Uhr)</p>
+         </article>
+        Beispielseite zum Thema Tabellen & Formular.<br />
+        Von Michael Bruckbauer
+    </footer>
+</body>
+
+</html>
